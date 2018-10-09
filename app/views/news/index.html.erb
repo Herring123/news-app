@@ -1,1 +1,15 @@
-hi
+<% @articles["articles"].each do |article| %>
+<ul>
+  <li>
+
+<%= article["title"] %>
+<br>
+<%= article["author"] %>
+<br>
+<%= article["content"] %>
+<%= article["urlToImage"] %>
+
+  </li>
+
+</ul>
+<% end %>
