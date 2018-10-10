@@ -1,17 +1,14 @@
 <h1>TOP 10 NEWS STORIES</h1>
 
 <% @articles["articles"].each do |article| %>
-<ul>
-  <li>
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <div class="card">
+<p><%= article["title"] %></p>
+<p><%= article["author"] %></p>
+<p><%= article["content"] %></p>
 
-<%= article["title"] %>
-<br>
-<%= article["author"] %>
-<br>
-<%= article["content"] %>
-<%= article["urlToImage"] %>
-
-  </li>
-
-</ul>
+</div>
+</div>
 <% end %>
+
+
