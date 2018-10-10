@@ -1,0 +1,32 @@
+.title{
+  text-align: center;
+  color:#FF331F;
+  font-weight:900;
+  font-size: 50px;
+  font-family: 'Merriweather', serif;
+  // text-decoration: underline;
+  background-color:white;
+  margin-top:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+
+}
+
+.title:after, .title:before {
+  content: '';
+  width: 150px;
+  height: 2px;
+  background: red;
+  margin: 0 10px;
+}
+
+.cards{
+ padding-bottom: 50px;
+}
+
+body{
+  background-image: url("https://previews.123rf.com/images/eyematrix/eyematrix1210/eyematrix121000010/15910762-black-and-white-repeating-torn-newspaper-background.jpg");
+  background-attachment: fixed;
+}

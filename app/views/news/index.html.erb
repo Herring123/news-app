@@ -1,14 +1,15 @@
-<h1>TOP 10 NEWS STORIES</h1>
+<h1 class="title">TOP 10 TECH NEWS STORIES</h1>
 
-<% @articles["articles"].each do |article| %>
-<div class="col-xs-12 col-sm-6 col-md-4">
-  <div class="card">
-<p><%= article["title"] %></p>
-<p><%= article["author"] %></p>
-<p><%= article["content"] %></p>
-
+<div class="container cards">
+  <% @articles["articles"].each do |article| %>
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="card">
+      <h3 class="card-title"><%= article["title"] %></h3>
+      <p class="content"><%= article["content"] %></p>
+      <p class="author">By <%= article["author"] %></p>
+    </div>
+  </div>
+  <% end %>
 </div>
-</div>
-<% end %>
 
 

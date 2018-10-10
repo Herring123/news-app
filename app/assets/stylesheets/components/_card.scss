@@ -5,6 +5,25 @@
   margin:auto;
   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
-  height: 300px;
+  height: 350px;
   margin-top:25px;
+
+}
+
+.card-title{
+  text-align: center;
+  padding-top:13px;
+
+}
+
+.author{
+position:absolute;
+left:15px;
+bottom:0px;
+}
+
+.content{
+  width:275px;
+  padding-left:15px;
+  padding-top:7px;
 }
